@@ -19,3 +19,7 @@
   - update service bean in `applicationContext.xml`
   - setup constructor injection in `applicationContext.xml`
 
+4.[Dependency Injection - Setter Injection](https://github.com/kimochg/spring-starter/commit/548824fe49278071dde0824fe71eb7d28ed445d5)
+  - setup setter injection in `applicationContext.xml`
+  - convention: invoke set + property name(capital case) method
+
