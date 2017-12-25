@@ -27,3 +27,6 @@
   - setup literal value injection in `applicationContext.xml`
   - value attribute in property tag will be injected when invoking set + property name method
 
+6.[Literal Value Injection in Another Properties File](https://github.com/kimochg/spring-starter/commit/99af760c83ff0ec1cb03fd3e8bdb3bea524e195c)
+  - make literal values maintainable in one single file
+
