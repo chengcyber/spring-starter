@@ -34,3 +34,26 @@
   - default bean scope is singleton, i.e. application container always returns same instance. - **stateless object**
   - set `scope="prototype"` in `beanScope-applicaitonContext.xml` file, thus different instances returned. - **stateful object**
 
+8.[Bean Lifecycle Methods](https://github.com/kimochg/spring-starter/commit/b74ca4607cde26124d614b3882459c480077152d)
+  - Convention:
+    - The methods should be public void
+    - The methods should be no-arg, meaning they shouldn't accept any method arguments
+  - Life Cycle:
+    1. Container started
+    2. Bean instantiated
+    3. Dependencies Injected
+    4. Internal Spring Processing
+    5. **Your Custom Init Method**
+    6. Bean Is Already For Use
+    7. Container Is Shut Down
+    8. **Your Custom Destroy Method**
+    9. STOP
+  - Cavet:
+  
+  >  Spring does not manage the complete lifecycle of a `prototype` bean: the container instantiates, configures, and otherwise assembles a prototype object, and hands it to the client, with no further record of that prototype instance. Thus, although initialization lifecycle callback methods are called on all objects regardless of scope, in the case of prototypes, configured destruction lifecycle callbacks are not called. The client code must clean up prototype-scoped objects and release expensive resources that the prototype bean(s) are holding.
+    ---
+    This also applies to both XML configuration and Annotation-based configuration.
+
+
+
+
