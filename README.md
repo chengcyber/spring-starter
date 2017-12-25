@@ -23,3 +23,7 @@
   - setup setter injection in `applicationContext.xml`
   - convention: invoke set + property name(capital case) method
 
+5.[Dependency Injection - Literal Value Injection](https://github.com/kimochg/spring-starter/commit/f1199e21dc38bad09988ced7b1ec2b1ab13cc605)
+  - setup literal value injection in `applicationContext.xml`
+  - value attribute in property tag will be injected when invoking set + property name method
+
