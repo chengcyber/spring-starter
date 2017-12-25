@@ -30,3 +30,7 @@
 6.[Literal Value Injection in Another Properties File](https://github.com/kimochg/spring-starter/commit/99af760c83ff0ec1cb03fd3e8bdb3bea524e195c)
   - make literal values maintainable in one single file
 
+7.[Bean Scope](https://github.com/kimochg/spring-starter/commit/a36c7958c562a557d5ef39dd020fab8d7570ffe9)
+  - default bean scope is singleton, i.e. application container always returns same instance. - **stateless object**
+  - set `scope="prototype"` in `beanScope-applicaitonContext.xml` file, thus different instances returned. - **stateful object**
+
