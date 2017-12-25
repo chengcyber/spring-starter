@@ -10,3 +10,8 @@
 # spring-demo-1
 
 1.[Basic JAVA app](https://github.com/kimochg/spring-starter/commit/13a77f1ec6ae1ea72b3ca55f005ab94a82a12d22)
+
+2.[Basic Spring app](https://github.com/kimochg/spring-starter/commit/9274ead07d7a547055f8198bb8865d8369495cc7)
+  - config in `applicationContext.xml`
+  - remember import springframework JARs b/c ClassPathXmlApplicationContext is essentail here
+
