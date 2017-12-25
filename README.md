@@ -15,3 +15,7 @@
   - config in `applicationContext.xml`
   - remember import springframework JARs b/c ClassPathXmlApplicationContext is essentail here
 
+3.[Dependency Injection - Constructor Injection](https://github.com/kimochg/spring-starter/commit/27b815378c1c192cdfc176cbded2377d45367738)
+  - update service bean in `applicationContext.xml`
+  - setup constructor injection in `applicationContext.xml`
+
