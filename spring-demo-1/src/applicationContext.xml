@@ -26,6 +26,9 @@
     		<!-- set up setter injection -->
     		<property name="fortuneService" ref="myFortuneService"></property>
 
+    		<!-- set up literal value injection -->
+    		<property name="emailAddress" value="whatever@email.com"></property>
+    		<property name="team" value="spring core team"></property>
     </bean>
 </beans>
 
