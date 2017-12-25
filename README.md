@@ -7,4 +7,6 @@
 - link local tomcat server in Eclipse at `server` tab
 - add Spring libraries JAR to your project
 
+# spring-demo-1
 
+1.[Basic JAVA app](https://github.com/kimochg/spring-starter/commit/13a77f1ec6ae1ea72b3ca55f005ab94a82a12d22)
