@@ -63,3 +63,8 @@
 10.[Annotation - Default Component Name](https://github.com/kimochg/spring-starter/commit/de8bd7d356a1e20cc0e65469ea096ec323ab840c)
   - default bean id is class name in camel case
 
+11.[Annotation - Constructor Injection](https://github.com/kimochg/spring-starter/commit/6047e483a44b8f9c2037f1b3b9313c2e663b0534)
+  - Spring will automatically scan our package since we've set up in `applicationContext.xml`
+  - `@Component` the Service class
+  - `@Autowired` the constructor
+
