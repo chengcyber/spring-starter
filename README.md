@@ -71,3 +71,6 @@
 12.[Annotation - Setter Injection](https://github.com/kimochg/spring-starter/commit/8958b72b5acfb175fc7c6d568069573755e8e17d)
   - `@Autowired` a setter method inside
 
+13.[Annotation - Method Injection](https://github.com/kimochg/spring-starter/commit/9ad718433ff033ec5369c4796fb002b6769ad6bb)
+  - every method can be annotated by `@Autowired` to inject dependency
+
