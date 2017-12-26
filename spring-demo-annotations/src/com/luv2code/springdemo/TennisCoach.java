@@ -2,8 +2,8 @@ package com.luv2code.springdemo;
 
 import org.springframework.stereotype.Component;
 
-/* Spring will automatically register this bean */
-@Component("thatSillyCoach")
+/* default bean id is class name in camel case */
+@Component
 public class TennisCoach implements Coach {
 
 	@Override
