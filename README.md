@@ -68,3 +68,6 @@
   - `@Component` the Service class
   - `@Autowired` the constructor
 
+12.[Annotation - Setter Injection](https://github.com/kimochg/spring-starter/commit/8958b72b5acfb175fc7c6d568069573755e8e17d)
+  - `@Autowired` a setter method inside
+
