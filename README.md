@@ -78,3 +78,13 @@
   - apply directly to a field
   - no need setter method for the field
 
+15.[Annotation - Qualifier](https://github.com/kimochg/spring-starter/commit/f8fc5710cb1c33e72f35e3c48d3fcda21dd2c954)
+  - multiple Services implement same Interface
+  - decide which one to inject via `Qualifier`
+  - Cavet:
+
+> the special case of when BOTH the first and second characters of the class name are upper case, then the name is NOT converted.
+> RESTFortuneService --> RESTFortuneService
+> Behind the scenes, Spring uses the Java Beans Introspector to generate the default bean name. Here's a screenshot of the documentation for the key method.
+> [Java Beans Introspector](https://docs.oracle.com/javase/8/docs/api/java/beans/Introspector.html#decapitalize-java.lang.String-)
+
