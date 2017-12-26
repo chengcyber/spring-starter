@@ -60,4 +60,6 @@
   - setup `context-component-scan` in `applicationContext.xml`
   - @Component annotataion in business code
 
+10.[Annotation - Default Component Name](https://github.com/kimochg/spring-starter/commit/de8bd7d356a1e20cc0e65469ea096ec323ab840c)
+  - default bean id is class name in camel case
 
