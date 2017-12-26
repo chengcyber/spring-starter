@@ -9,9 +9,14 @@ public class TennisCoach implements Coach {
 
 	private FortuneService fortuneService;
 	
+//	@Autowired
+//	public TennisCoach(FortuneService theFortuneService) {
+//		fortuneService= theFortuneService;
+//	}
+	
 	@Autowired
-	public TennisCoach(FortuneService theFortuneService) {
-		fortuneService= theFortuneService;
+	public void setFortuneService(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
 	}
 
 	@Override
