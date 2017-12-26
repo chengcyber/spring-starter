@@ -1,6 +1,7 @@
 package com.luv2code.springdemo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 /* default bean id is class name in camel case */
@@ -9,6 +10,7 @@ public class TennisCoach implements Coach {
 
 	/* Field Injection here */
 	@Autowired
+	@Qualifier("randomFortuneService")
 	private FortuneService fortuneService;
 	
 //	@Autowired
