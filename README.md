@@ -74,3 +74,7 @@
 13.[Annotation - Method Injection](https://github.com/kimochg/spring-starter/commit/9ad718433ff033ec5369c4796fb002b6769ad6bb)
   - every method can be annotated by `@Autowired` to inject dependency
 
+14.[Annotation - Field Injection](https://github.com/kimochg/spring-starter/commit/feb0a73c199b4edce1d93208e991cdff943d5cb1)
+  - apply directly to a field
+  - no need setter method for the field
+
