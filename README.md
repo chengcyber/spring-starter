@@ -49,11 +49,15 @@
     8. **Your Custom Destroy Method**
     9. STOP
   - Cavet:
-  
+
   >  Spring does not manage the complete lifecycle of a `prototype` bean: the container instantiates, configures, and otherwise assembles a prototype object, and hands it to the client, with no further record of that prototype instance. Thus, although initialization lifecycle callback methods are called on all objects regardless of scope, in the case of prototypes, configured destruction lifecycle callbacks are not called. The client code must clean up prototype-scoped objects and release expensive resources that the prototype bean(s) are holding.
     ---
     This also applies to both XML configuration and Annotation-based configuration.
 
 
+9.[Annotation - Explicit Component Name](https://github.com/kimochg/spring-starter/commit/0f1cdc2629c410d71eb0053d86b04ae059e98927)
+  - annotation minimizes the config than xml files
+  - setup `context-component-scan` in `applicationContext.xml`
+  - @Component annotataion in business code
 
 
