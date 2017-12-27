@@ -11,13 +11,18 @@ public class AnnotationDemoApp {
 				new ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		// get the bean from spring container
-		Coach theCoach = ctx.getBean("tennisCoach", Coach.class);
+		TennisCoach theCoach = ctx.getBean("tennisCoach", TennisCoach.class);
 		
 		// call a method on the bean
 		System.out.println(theCoach.getDailyWorkout());
 
 		// call a method with dependency injection
 		System.out.println(theCoach.getDailyFortune());
+		
+		// call getter methods with literal value injection
+		System.out.println(theCoach.getEmail());
+		System.out.println(theCoach.getTeam());
+		
 		
 		// close the context
 		ctx.close();
