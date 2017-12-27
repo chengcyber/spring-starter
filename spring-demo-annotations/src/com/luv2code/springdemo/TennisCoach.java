@@ -6,9 +6,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy; 
+
 /* default bean id is class name in camel case */
 @Component
-@Scope("prototype")
+//@Scope("prototype")
 public class TennisCoach implements Coach {
 
 	/* Field Injection here */
@@ -57,6 +60,18 @@ public class TennisCoach implements Coach {
 	@Override
 	public String getDailyFortune() {
 		return fortuneService.getFortune();
+	}
+	
+	// define my init method
+	@PostConstruct
+	public void doMyStartupStuff() {
+		System.out.println("TennisCoach: inside method doMyStartupStuff");
+	}
+	
+	// define my destroy method
+	@PreDestroy
+	public void doMyCleanupStuff() {
+		System.out.println("TennisCoach: inside method doMyCleanupStuff");
 	}
 
 }
