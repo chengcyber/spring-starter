@@ -92,3 +92,7 @@
   - set up `context:property-placeholder` in `applicationContext.xml`
   - `@Value(${})`
 
+17.[Annotation - Bean Scope - Singleton](https://github.com/kimochg/spring-starter/commit/c7bf795ac687d3776cb36e8050bab3cf261446f7)
+  - default bean scope is singleton
+  - same as `@Scope("singleton")`
+
