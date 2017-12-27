@@ -3,10 +3,12 @@ package com.luv2code.springdemo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 /* default bean id is class name in camel case */
 @Component
+@Scope("prototype")
 public class TennisCoach implements Coach {
 
 	/* Field Injection here */
