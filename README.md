@@ -114,3 +114,8 @@
 21.[Java Code Config - Inner Defined Bean](https://github.com/kimochg/spring-starter/commit/667c8bb3de81e98595924d1f620e0f23b6ec99dc)
   - define bean inside the Java code configuration
 
+22.[Java Code Config - Load Properties](https://github.com/kimochg/spring-starter/commit/dc31e4d6f6da31cf6b01e93440902223ba724fea)
+  - Create Properties File
+  - Load Properties File in Spring Config
+  - Reference values from Properties File
+
