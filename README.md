@@ -88,3 +88,7 @@
 > Behind the scenes, Spring uses the Java Beans Introspector to generate the default bean name. Here's a screenshot of the documentation for the key method.
 > [Java Beans Introspector](https://docs.oracle.com/javase/8/docs/api/java/beans/Introspector.html#decapitalize-java.lang.String-)
 
+16.[Annotation - Literal Value Injection](https://github.com/kimochg/spring-starter/commit/10b96fdc6796b186742b1ada14c72042aba19aec)
+  - set up `context:property-placeholder` in `applicationContext.xml`
+  - `@Value(${})`
+
