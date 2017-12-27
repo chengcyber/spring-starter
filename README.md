@@ -99,4 +99,9 @@
 18.[Annotation - Bean Scope - Prototype](https://github.com/kimochg/spring-starter/commit/66d902cb3f6f73b689c00c8bc534fdb644800c54)
   - Spring Container returns different beans
 
+19.[Annotation - Bean Life Cycle Methods](https://github.com/kimochg/spring-starter/commit/a4f821926efecfd7d07ba34d2bea7904a79a5cdb)
+  - `@PostConstruct` as init-method
+  - `@PreDestroy` as destroy-method
+  - remember prototype bean won't invoke destroy-method, b/c bean doesn't record prototype beans
+  - javax.annotation in not default included in JAVA 9
 
