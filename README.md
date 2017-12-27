@@ -96,3 +96,7 @@
   - default bean scope is singleton
   - same as `@Scope("singleton")`
 
+18.[Annotation - Bean Scope - Prototype](https://github.com/kimochg/spring-starter/commit/66d902cb3f6f73b689c00c8bc534fdb644800c54)
+  - Spring Container returns different beans
+
+
