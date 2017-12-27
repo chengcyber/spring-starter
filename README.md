@@ -111,3 +111,6 @@
   - Read Spring Java configuration class
   - Retrieve bean from Spring container
 
+21.[Java Code Config - Inner Defined Bean](https://github.com/kimochg/spring-starter/commit/667c8bb3de81e98595924d1f620e0f23b6ec99dc)
+  - define bean inside the Java code configuration
+
