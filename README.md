@@ -105,3 +105,9 @@
   - remember prototype bean won't invoke destroy-method, b/c bean doesn't record prototype beans
   - javax.annotation in not default included in JAVA 9
 
+20.[Java Source Code Configuration](https://github.com/kimochg/spring-starter/commit/f06630dc7e7d5fb435591e86fde6ef8b6c654a38)
+  - Create a Java Class and annotate as `@Configuration`
+  - Add component scanning support: `@ComponentScan` (optional)
+  - Read Spring Java configuration class
+  - Retrieve bean from Spring container
+
