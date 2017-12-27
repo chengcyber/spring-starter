@@ -11,13 +11,17 @@ public class SwimJavaConfigDemoApp {
 			new AnnotationConfigApplicationContext(SportConfig.class);
 		
 		// get the bean from spring container
-		Coach theCoach = ctx.getBean("swimCoach", Coach.class);
+		SwimCoach theCoach = ctx.getBean("swimCoach", SwimCoach.class);
 		
 		// call a method on the bean
 		System.out.println(theCoach.getDailyWorkout());
 
 		// call a method with dependency injection
 		System.out.println(theCoach.getDailyFortune());
+		
+		// call new getter methods ... has props values injected
+		System.out.println("email: " + theCoach.getEmail());
+		System.out.println("team: " + theCoach.getTeam());
 		
 		// close the context
 		ctx.close();
