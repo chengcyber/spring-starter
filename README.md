@@ -126,3 +126,19 @@ copy from last demo or search internet
   - Load Properties File in Spring Config
   - Reference values from Properties File
 
+# spring-mvc-demo
+
+1.[Set up](https://github.com/kimochg/spring-starter/commit/7fea4208ee435acb59ff9d3a91e3ecca8435a023)
+- New - Dynamic Web Project
+- manually paste lastest Spring libraries to `WebContent/WEB-INF/lib`
+- manually paste additional libraries to `WebContent/WEB-INF/lib`
+  - commons-logging-1.2.jar
+  - javax.servlet.jsp.jtl-1.2.1.jar
+  - javax.servlet.jsp.jstl-api-1.2.1.jar
+- xml configuration files in `WebContent/WEB-INF`
+  - spring-mvc-demo-servlet.xml
+  - web.xml
+
+configure the Spring Dispatcher Servlet using all Java Code (no xml):
+https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-container-config
+
