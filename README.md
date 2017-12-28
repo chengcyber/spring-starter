@@ -54,31 +54,38 @@
     ---
     This also applies to both XML configuration and Annotation-based configuration.
 
+# spring-demo-anotations
 
-9.[Annotation - Explicit Component Name](https://github.com/kimochg/spring-starter/commit/0f1cdc2629c410d71eb0053d86b04ae059e98927)
+- Spring libraries
+- javax.annotation-api-1.3.1.jar
+- applicationContext.xml
+
+copy from last demo or search internet
+
+1.[Annotation - Explicit Component Name](https://github.com/kimochg/spring-starter/commit/0f1cdc2629c410d71eb0053d86b04ae059e98927)
   - annotation minimizes the config than xml files
   - setup `context-component-scan` in `applicationContext.xml`
   - @Component annotataion in business code
 
-10.[Annotation - Default Component Name](https://github.com/kimochg/spring-starter/commit/de8bd7d356a1e20cc0e65469ea096ec323ab840c)
+2.[Annotation - Default Component Name](https://github.com/kimochg/spring-starter/commit/de8bd7d356a1e20cc0e65469ea096ec323ab840c)
   - default bean id is class name in camel case
 
-11.[Annotation - Constructor Injection](https://github.com/kimochg/spring-starter/commit/6047e483a44b8f9c2037f1b3b9313c2e663b0534)
+3.[Annotation - Constructor Injection](https://github.com/kimochg/spring-starter/commit/6047e483a44b8f9c2037f1b3b9313c2e663b0534)
   - Spring will automatically scan our package since we've set up in `applicationContext.xml`
   - `@Component` the Service class
   - `@Autowired` the constructor
 
-12.[Annotation - Setter Injection](https://github.com/kimochg/spring-starter/commit/8958b72b5acfb175fc7c6d568069573755e8e17d)
+4.[Annotation - Setter Injection](https://github.com/kimochg/spring-starter/commit/8958b72b5acfb175fc7c6d568069573755e8e17d)
   - `@Autowired` a setter method inside
 
-13.[Annotation - Method Injection](https://github.com/kimochg/spring-starter/commit/9ad718433ff033ec5369c4796fb002b6769ad6bb)
+5.[Annotation - Method Injection](https://github.com/kimochg/spring-starter/commit/9ad718433ff033ec5369c4796fb002b6769ad6bb)
   - every method can be annotated by `@Autowired` to inject dependency
 
-14.[Annotation - Field Injection](https://github.com/kimochg/spring-starter/commit/feb0a73c199b4edce1d93208e991cdff943d5cb1)
+6.[Annotation - Field Injection](https://github.com/kimochg/spring-starter/commit/feb0a73c199b4edce1d93208e991cdff943d5cb1)
   - apply directly to a field
   - no need setter method for the field
 
-15.[Annotation - Qualifier](https://github.com/kimochg/spring-starter/commit/f8fc5710cb1c33e72f35e3c48d3fcda21dd2c954)
+7.[Annotation - Qualifier](https://github.com/kimochg/spring-starter/commit/f8fc5710cb1c33e72f35e3c48d3fcda21dd2c954)
   - multiple Services implement same Interface
   - decide which one to inject via `Qualifier`
   - Cavet:
@@ -88,33 +95,33 @@
 > Behind the scenes, Spring uses the Java Beans Introspector to generate the default bean name. Here's a screenshot of the documentation for the key method.
 > [Java Beans Introspector](https://docs.oracle.com/javase/8/docs/api/java/beans/Introspector.html#decapitalize-java.lang.String-)
 
-16.[Annotation - Literal Value Injection](https://github.com/kimochg/spring-starter/commit/10b96fdc6796b186742b1ada14c72042aba19aec)
+8.[Annotation - Literal Value Injection](https://github.com/kimochg/spring-starter/commit/10b96fdc6796b186742b1ada14c72042aba19aec)
   - set up `context:property-placeholder` in `applicationContext.xml`
   - `@Value(${})`
 
-17.[Annotation - Bean Scope - Singleton](https://github.com/kimochg/spring-starter/commit/c7bf795ac687d3776cb36e8050bab3cf261446f7)
+9.[Annotation - Bean Scope - Singleton](https://github.com/kimochg/spring-starter/commit/c7bf795ac687d3776cb36e8050bab3cf261446f7)
   - default bean scope is singleton
   - same as `@Scope("singleton")`
 
-18.[Annotation - Bean Scope - Prototype](https://github.com/kimochg/spring-starter/commit/66d902cb3f6f73b689c00c8bc534fdb644800c54)
+10.[Annotation - Bean Scope - Prototype](https://github.com/kimochg/spring-starter/commit/66d902cb3f6f73b689c00c8bc534fdb644800c54)
   - Spring Container returns different beans
 
-19.[Annotation - Bean Life Cycle Methods](https://github.com/kimochg/spring-starter/commit/a4f821926efecfd7d07ba34d2bea7904a79a5cdb)
+11.[Annotation - Bean Life Cycle Methods](https://github.com/kimochg/spring-starter/commit/a4f821926efecfd7d07ba34d2bea7904a79a5cdb)
   - `@PostConstruct` as init-method
   - `@PreDestroy` as destroy-method
   - remember prototype bean won't invoke destroy-method, b/c bean doesn't record prototype beans
   - javax.annotation in not default included in JAVA 9
 
-20.[Java Source Code Configuration](https://github.com/kimochg/spring-starter/commit/f06630dc7e7d5fb435591e86fde6ef8b6c654a38)
+12.[Java Source Code Configuration](https://github.com/kimochg/spring-starter/commit/f06630dc7e7d5fb435591e86fde6ef8b6c654a38)
   - Create a Java Class and annotate as `@Configuration`
   - Add component scanning support: `@ComponentScan` (optional)
   - Read Spring Java configuration class
   - Retrieve bean from Spring container
 
-21.[Java Code Config - Inner Defined Bean](https://github.com/kimochg/spring-starter/commit/667c8bb3de81e98595924d1f620e0f23b6ec99dc)
+13.[Java Code Config - Inner Defined Bean](https://github.com/kimochg/spring-starter/commit/667c8bb3de81e98595924d1f620e0f23b6ec99dc)
   - define bean inside the Java code configuration
 
-22.[Java Code Config - Load Properties](https://github.com/kimochg/spring-starter/commit/dc31e4d6f6da31cf6b01e93440902223ba724fea)
+14.[Java Code Config - Load Properties](https://github.com/kimochg/spring-starter/commit/dc31e4d6f6da31cf6b01e93440902223ba724fea)
   - Create Properties File
   - Load Properties File in Spring Config
   - Reference values from Properties File
