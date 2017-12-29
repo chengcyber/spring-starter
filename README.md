@@ -164,3 +164,15 @@ https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#m
   - `model.addAttribute("foo", obj/string/...)` in controller method
   - `${foo}` in view jsp file
 
+## Bouns:
+
+- [config assets resource in Spring](https://gist.github.com/darbyluv2code/9a09543a226baeedc04b9a5037ca52ec)
+- Deploy app to Tomcat as a Web Application Archive(WAR) file
+  1. stop tomcat in Eclipse
+  2. Right Click project, and select Export > WAR file
+  3. input a file name, 'myapp.war' for example
+  4. start tomcat outside of Eclipse
+  5. move the new WAR file to /path/install/tomcat/webapps/
+  6. visit `http://localhost:8080/myapp`
+
+
