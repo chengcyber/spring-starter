@@ -160,3 +160,7 @@ https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#m
   - HTML form action
   - get param from query string
 
+4.[Spring MVC - Add Attribute to Model](https://github.com/kimochg/spring-starter/commit/2c57a39c28ad7bc3933d507fc11472ce471a31b6)
+  - `model.addAttribute("foo", obj/string/...)` in controller method
+  - `${foo}` in view jsp file
+
