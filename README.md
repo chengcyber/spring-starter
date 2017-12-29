@@ -155,4 +155,8 @@ https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#m
 > How to Clean Eclipse Cache:
 > select the top-level menu option, Project -> Clean ..., be sure your project is selected and click OK, restart Eclipse
 
+3.[Spring MVC - Handle Form Data](https://github.com/kimochg/spring-starter/commit/5e9844882046cbf9dfb6a657a75188ff91d87cbe)
+  - a tag as hyperlink
+  - HTML form action
+  - get param from query string
 
