@@ -142,3 +142,17 @@ copy from last demo or search internet
 configure the Spring Dispatcher Servlet using all Java Code (no xml):
 https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-container-config
 
+2.[Spring MVC - Controller & View](https://github.com/kimochg/spring-starter/commit/c99e88afc64270e5f6036ad8c3a55dffb7e535a2)
+  - annotate class with `@Controller`
+  - `@Controller` inherits from `@Component` ... supports scanning(according to base-package setting)
+  - `@Requestmapping("/")` maps a path to a method name
+  - the method should return view name which will be assembled with prefix suffix in config
+  - finnaly, `Run as Server`
+
+> How to Clean Server Cache:
+> stop the tomcat in Server tab, right click the server and select `Clean...`, right click the server again and select `Clean Tomcat Work Directory...`
+
+> How to Clean Eclipse Cache:
+> select the top-level menu option, Project -> Clean ..., be sure your project is selected and click OK, restart Eclipse
+
+
