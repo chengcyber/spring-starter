@@ -178,3 +178,6 @@ https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#m
 5.[Spring MVC - Annotation RequestParam](https://github.com/kimochg/spring-starter/commit/47c8048621b0a3c7b172fd32a4967a8da88013ca)
   - `@RequestParam("foo") String bar` parse the `foo` value in queryString and evalute it to `bar`
 
+6.[Spring MVC - Annotation Request Parent Mapping](https://github.com/kimochg/spring-starter/commit/53c5e4e24162a6aea71cc7554166d65d7558920d)
+  - Annotate the Controller with `@RequestMapping` gives a route scope, resolving ambiguous mapping
+
