@@ -187,3 +187,8 @@ https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#m
 
 8.[Spring MVC - Form Select Tag](https://github.com/kimochg/spring-starter/commit/7e63f2c08b0f54b8e631fbae5898ed3d59a0989f)
   - hard code options in JSP
+
+9.[Spring MVC - Form Options Tag](https://github.com/kimochg/spring-starter/commit/ea12b56f3275d0aea674f46fefb8108405157732)
+  - read data from model layer
+  - use it in view layer
+
