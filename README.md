@@ -185,3 +185,5 @@ https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#m
   - [Official Doc](https://docs.spring.io/spring/docs/4.2.x/spring-framework-reference/html/spring-form-tld.html#spring-form.tld.form)
   - visit `localhost:8080/spring-mvc-demo/student/showForm`
 
+8.[Spring MVC - Form Select Tag](https://github.com/kimochg/spring-starter/commit/7e63f2c08b0f54b8e631fbae5898ed3d59a0989f)
+  - hard code options in JSP
