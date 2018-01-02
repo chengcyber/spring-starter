@@ -181,3 +181,7 @@ https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#m
 6.[Spring MVC - Annotation Request Parent Mapping](https://github.com/kimochg/spring-starter/commit/53c5e4e24162a6aea71cc7554166d65d7558920d)
   - Annotate the Controller with `@RequestMapping` gives a route scope, resolving ambiguous mapping
 
+7.[Spring MVC - Form Tag](https://github.com/kimochg/spring-starter/commit/af2d7b3fe7a853864dabdf4be1f18b0f3158652e)
+  - [Official Doc](https://docs.spring.io/spring/docs/4.2.x/spring-framework-reference/html/spring-form-tld.html#spring-form.tld.form)
+  - visit `localhost:8080/spring-mvc-demo/student/showForm`
+
