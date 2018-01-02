@@ -175,4 +175,6 @@ https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#m
   5. move the new WAR file to /path/install/tomcat/webapps/
   6. visit `http://localhost:8080/myapp`
 
+5.[Spring MVC - Annotation RequestParam](https://github.com/kimochg/spring-starter/commit/47c8048621b0a3c7b172fd32a4967a8da88013ca)
+  - `@RequestParam("foo") String bar` parse the `foo` value in queryString and evalute it to `bar`
 
