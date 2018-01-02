@@ -4,15 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Student Confirmation</title>
 </head>
 <body>
 
-<h2> Spring MVC Demo - Home Page </h2>
-
-<a href="hello/showForm">Hello World Form</a>
-
-<a href="student/showForm">Student Registration Form</a>
+<!-- automatically invoke getter method -->
+The student is confirmed: ${student.firstName} ${student.lastName}
 
 </body>
 </html>
