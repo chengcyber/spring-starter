@@ -18,5 +18,7 @@ Student name: ${param.studentName}
 
 The message: ${message}
 
+<a href="/spring-mvc-demo">Back to Home</a>
+
 </body>
 </html>
