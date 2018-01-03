@@ -192,3 +192,7 @@ https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#m
   - read data from model layer
   - use it in view layer
 
+10.[Spring MVC - Literal Value Injection](https://github.com/kimochg/spring-starter/commit/60693b457ecfb7bd238b18939b7660461c08560d)
+  - set up `context.xml` header
+  - `util:properties`
+
