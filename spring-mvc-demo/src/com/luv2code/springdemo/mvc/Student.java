@@ -9,10 +9,11 @@ public class Student {
 	
 	private String country;
 	
-	private LinkedHashMap<String, String> countryOptions;
+//	private LinkedHashMap<String, String> countryOptions;
 	
 	public Student() {
 		
+		/*
 		// populate country options used ISO country coded
 		countryOptions = new LinkedHashMap<>();
 		
@@ -21,6 +22,7 @@ public class Student {
 		countryOptions.put("DE", "Germany");
 		countryOptions.put("IN", "India");
 		countryOptions.put("US", "United States of American");
+		*/
 		
 	}
 
@@ -48,8 +50,8 @@ public class Student {
 		this.country = country;
 	}
 
-	public LinkedHashMap<String, String> getCountryOptions() {
-		return countryOptions;
-	}
+//	public LinkedHashMap<String, String> getCountryOptions() {
+//		return countryOptions;
+//	}
 	
 }
