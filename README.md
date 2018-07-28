@@ -216,3 +216,9 @@ set up our development environment
   - download hibernate-validation JAR from `http://hibernate.org/validator/releases/6.0/`
   - copy dist/xxx.jar and dist/lib/required/xxx.jar to /WEB-INF/lib
 
+1.[required field](https://github.com/kimochg/spring-starter/commit/512ac0434fd6340231f8fe84bf8963736cfa28e7)
+  - Add validation rule to Customer Class
+  - Display error messages on HTML form
+  - Perform validation in the Controller class
+  - Update confirmation page
+
