@@ -222,3 +222,6 @@ set up our development environment
   - Perform validation in the Controller class
   - Update confirmation page
 
+1.1.[Pre-processing with @InitBinder](https://github.com/kimochg/spring-starter/commit/93f21137ab05e679cedb4579ded0eaca3c3646c7)
+  - treat the input only contains whitespaces as invalid
+
