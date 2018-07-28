@@ -27,6 +27,11 @@ Fill out the form. Asterisk(*) means required.
 	
 		<br />
 		
+		Free passes: <form:input path="freePasses" />
+		<form:errors path="freePasses" cssClass="error" />
+		
+		<br />
+		
 		<input type="submit" value="submit" />
 	
 	</form:form>
