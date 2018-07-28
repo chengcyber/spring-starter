@@ -37,6 +37,11 @@ Fill out the form. Asterisk(*) means required.
 		
 		<br />
 		
+		Course Code: <form:input path="courseCode" />
+		<form:errors path="courseCode" cssClass="error" />
+		
+		<br />
+		
 		<input type="submit" value="submit" />
 	
 	</form:form>
