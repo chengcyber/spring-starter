@@ -1,11 +1,15 @@
 # Setup
 
 1. download Eclipsed Jave EE distrubition from `http://www.eclipse.org/`
-2. download lastest release of Spring libs from `http://repo.spring.io/release/org/springframework/spring/`
-3. download tomcat from `http://tomcat.apache.org/`
+2. download Java SE JDK `http://www.oracle.com/technetwork/java/javase/overview/index.html`
+3. download lastest release of Spring libs from `http://repo.spring.io/release/org/springframework/spring/`
+4. download tomcat from `http://tomcat.apache.org/`
 
 - link local tomcat server in Eclipse at `server` tab
+- Eclipse - Window - Perspective - Open Perspective - Java
 - add Spring libraries JAR to your project
+  - Copy Spring /libs/xxx.jar to project /lib folder
+  - Project Properties - Java Build Path - Libraries - Add JARs - add all of them
 
 # spring-demo-1
 
