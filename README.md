@@ -225,3 +225,5 @@ set up our development environment
 1.1.[Pre-processing with @InitBinder](https://github.com/kimochg/spring-starter/commit/93f21137ab05e679cedb4579ded0eaca3c3646c7)
   - treat the input only contains whitespaces as invalid
 
+2.[validate number range: min, max](https://github.com/kimochg/spring-starter/commit/85f3c03a5d0f6ea14df0787f5f04d3007aad46f6)
+
