@@ -32,6 +32,11 @@ Fill out the form. Asterisk(*) means required.
 		
 		<br />
 		
+		Postal Code: <form:input path="postalCode" />
+		<form:errors path="postalCode" cssClass="error" />
+		
+		<br />
+		
 		<input type="submit" value="submit" />
 	
 	</form:form>
