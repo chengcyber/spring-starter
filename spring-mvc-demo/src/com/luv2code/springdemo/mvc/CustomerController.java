@@ -39,6 +39,8 @@ public class CustomerController {
 			@Valid @ModelAttribute("customer") Customer customer,
 			BindingResult bindingResult) {
 		
+		System.out.println("Binding Result: " + bindingResult + "\n\n\n\n");
+		
 		if (bindingResult.hasErrors()) {
 			return "customer-form";
 		}
