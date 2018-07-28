@@ -227,3 +227,5 @@ set up our development environment
 
 2.[validate number range: min, max](https://github.com/kimochg/spring-starter/commit/85f3c03a5d0f6ea14df0787f5f04d3007aad46f6)
 
+3.[validate using regular expression](https://github.com/kimochg/spring-starter/commit/bf59223363e990140419d7b0ec5ff1d3edcf0727)
+
