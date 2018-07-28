@@ -138,11 +138,12 @@ copy from last demo or search internet
 
 1.[Set up](https://github.com/kimochg/spring-starter/commit/7fea4208ee435acb59ff9d3a91e3ecca8435a023)
 - New - Dynamic Web Project
-- manually paste lastest Spring libraries to `WebContent/WEB-INF/lib`
+- manually paste lastest [Spring libraries](http://repo.spring.io/release/org/springframework/spring/) to `WebContent/WEB-INF/lib`
 - manually paste additional libraries to `WebContent/WEB-INF/lib`
   - commons-logging-1.2.jar
-  - javax.servlet.jsp.jtl-1.2.1.jar
-  - javax.servlet.jsp.jstl-api-1.2.1.jar
+  - [javax.servlet.jsp.jtl-1.2.1.jar](http://central.maven.org/maven2/org/glassfish/web/javax.servlet.jsp.jstl/1.2.1/javax.servlet.jsp.jstl-1.2.1.jar)
+  - [javax.servlet.jsp.jstl-api-1.2.1.jar](http://central.maven.org/maven2/javax/servlet/jsp/jstl/javax.servlet.jsp.jstl-api/1.2.1/javax.servlet.jsp.jstl-api-1.2.1.jar)
+  - add `javax.servlet.http.HttpServlet` by Project Properties - Java Build Path - Libraries - Add Library... - Server Runtime - Tomcat
 - xml configuration files in `WebContent/WEB-INF`
   - spring-mvc-demo-servlet.xml
   - web.xml
