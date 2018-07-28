@@ -229,3 +229,7 @@ set up our development environment
 
 3.[validate using regular expression](https://github.com/kimochg/spring-starter/commit/bf59223363e990140419d7b0ec5ff1d3edcf0727)
 
+4.[validate number as required](https://github.com/kimochg/spring-starter/commit/31137c7a342695bb13ddcae1256f03437d19a749)
+  - Convertion Type Issue Int -> String
+  - Use `Integer` Type instead of `Int`
+
