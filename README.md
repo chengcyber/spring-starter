@@ -209,3 +209,10 @@ https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#m
 
 12.[Spring MVC - Form Checkbox Tag](https://github.com/kimochg/spring-starter/commit/7f95f75717f5af67788e7ae66a3b9390362cac19)
 
+
+## Spring MVC - Form Validation
+
+set up our development environment
+  - download hibernate-validation JAR from `http://hibernate.org/validator/releases/6.0/`
+  - copy dist/xxx.jar and dist/lib/required/xxx.jar to /WEB-INF/lib
+
