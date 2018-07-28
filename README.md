@@ -233,3 +233,6 @@ set up our development environment
   - Convertion Type Issue Int -> String
   - Use `Integer` Type instead of `Int`
 
+5.[handle string input for interger field](https://github.com/kimochg/spring-starter/commit/7511bb680f7a670fdcc6cb07753a726b5807d6e9)
+ - Override error code with `messages.properties` file
+
