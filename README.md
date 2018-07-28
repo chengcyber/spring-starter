@@ -236,3 +236,11 @@ set up our development environment
 5.[handle string input for interger field](https://github.com/kimochg/spring-starter/commit/7511bb680f7a670fdcc6cb07753a726b5807d6e9)
  - Override error code with `messages.properties` file
 
+6.[custom validation](https://github.com/kimochg/spring-starter/commit/256da9bd8bb622a07637692b245f059ee0fa5ece)
+  - new package `com.luv2code.springdemo.validation`
+  - new annotation `CourseCode`
+    - Contraint
+    - Target
+    - Retention
+  - new `CourseCodeConstraintValidator` implements `ConstraintValidator`
+
