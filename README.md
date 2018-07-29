@@ -244,3 +244,38 @@ set up our development environment
     - Retention
   - new `CourseCodeConstraintValidator` implements `ConstraintValidator`
 
+# hibernate-tutorial
+
+## Set Up Development Environment
+
+1. [MySQL](https://dev.mysql.com/downloads/mysql/)
+
+  install (remember the temporary password)
+
+```bash
+export PATH=$PATH:/usr/local/mysql/bin
+sudo /usr/local/mysql/support-files/mysql.server start
+mysql -u root -p (input the temporary password)
+set password = password('123456');
+```
+
+2. Database Table
+
+run the following sql scripts
+
+- /scripts/01-create-user.sql
+- /scripts/02-student-tracker.sql
+
+3. [Hibernate ORM](http://hibernate.org/orm/)
+
+copy /lib/required/xxx.jar to /hibernate-tutorial/lib
+
+4. [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)
+
+- download platform independent zip file
+- copy /mysql-connector-java-x.y.z.jar to /hibernate-tutorial/lib
+
+5. Add JARs
+
+Project Properties - Java Build Path - Libraries - Add JARs
+
