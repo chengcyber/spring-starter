@@ -277,5 +277,24 @@ copy /lib/required/xxx.jar to /hibernate-tutorial/lib
 
 5. Add JARs
 
+For Java >=9, download the following jar files, since java.xml.bind has been removed
+
+- [javax.activation-1.2.0.jar](http://search.maven.org/remotecontent?filepath=com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar)
+- [jaxb-api-2.3.0.jar](http://search.maven.org/remotecontent?filepath=javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar)
+- [jaxb-core-2.3.0.jar](http://search.maven.org/remotecontent?filepath=com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar)
+- [jaxb-impl-2.3.0.jar](http://search.maven.org/remotecontent?filepath=com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar)
+
 Project Properties - Java Build Path - Libraries - Add JARs
+
+## [Hibernate Configuration with Annotations](https://github.com/kimochg/spring-starter/commit/8d9c9bf02b330aee4d0287f306013201b3c12bab)
+
+1. Add hibernate configuration file
+  - src/hibernate.cfg.xml
+2. Annotate Java class
+  - @Entity
+  - @Table(name="tbl")
+  - @Id
+  - @Column(name="column")
+3. Develop Java code to perform database operations
+  - SessionFactory
 
