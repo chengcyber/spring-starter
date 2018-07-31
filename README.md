@@ -302,4 +302,8 @@ Project Properties - Java Build Path - Libraries - Add JARs
   - [Update Object via Hibernate](https://github.com/kimochg/spring-starter/commit/51679c05b6fc2c58c89c9524ccb2ea4c1efd4daf)
   - [Delete Object via Hibernate](https://github.com/kimochg/spring-starter/commit/7f29d1fbdcfd84c59203b24dc94d401c4201c415)
 
+# hb-01-one-to-one-uni
+
+- run sql hb-01-one-to-one-uni/create-db.sql
+- [uni-directional demo](https://github.com/kimochg/spring-starter/commit/53dbb03b28e739aaec557610d4db44ce2f94771b)
 
