@@ -307,3 +307,7 @@ Project Properties - Java Build Path - Libraries - Add JARs
 - run sql hb-01-one-to-one-uni/create-db.sql
 - [uni-directional demo](https://github.com/kimochg/spring-starter/commit/53dbb03b28e739aaec557610d4db44ce2f94771b)
 
+# hb-02-one-to-one-bi
+
+- [bi-directional demo](https://github.com/kimochg/spring-starter/commit/9a46a8c66b83c7832a8618ce98ae5c01547b3f63)
+
