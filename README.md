@@ -297,4 +297,6 @@ Project Properties - Java Build Path - Libraries - Add JARs
   - @Column(name="column")
 3. Develop Java code to perform database operations
   - SessionFactory
+  - [Read Object via Hibernate](https://github.com/kimochg/spring-starter/commit/12b233311e9b5a286ba4483b577dd6749679c8ab)
+
 
