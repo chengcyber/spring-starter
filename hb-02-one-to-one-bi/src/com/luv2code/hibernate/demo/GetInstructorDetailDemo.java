@@ -26,7 +26,7 @@ public class GetInstructorDetailDemo {
 			session.beginTransaction();
 
 			// get the instructor detail object
-			int id = 1;
+			int id = 2999;
 
 			InstructorDetail instructorDetail =
 					session.get(InstructorDetail.class, id);
@@ -43,7 +43,13 @@ public class GetInstructorDetailDemo {
 			
 			System.out.println("Done!");
 			
+		} catch(Exception exc) {
+		    exc.printStackTrace();
 		} finally {
+
+		    // handle session leak issue
+			session.close();
+
 			factory.close();
 		}
 	}
