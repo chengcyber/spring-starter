@@ -299,5 +299,6 @@ Project Properties - Java Build Path - Libraries - Add JARs
   - SessionFactory
   - [Read Object via Hibernate](https://github.com/kimochg/spring-starter/commit/12b233311e9b5a286ba4483b577dd6749679c8ab)
   - [Query Object via Hibernate](https://github.com/kimochg/spring-starter/commit/3d4be1b78fbe40a5cbbee8938c2e06ee75dfc4fb)
+  - [Update Object via Hibernate](https://github.com/kimochg/spring-starter/commit/51679c05b6fc2c58c89c9524ccb2ea4c1efd4daf)
 
 
