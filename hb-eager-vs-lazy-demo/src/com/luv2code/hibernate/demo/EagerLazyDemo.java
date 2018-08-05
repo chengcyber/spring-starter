@@ -33,11 +33,20 @@ public class EagerLazyDemo {
             // at this time, we have indstructor.courses fetched, since we set fetch type is eager
             System.out.println("Instructor: " + instructor);
 
-            // get courses for instructor
-            System.out.println("Courses: " + instructor.getCourses());
+            // Option 1: call getter while session is open
+            // the data will be stored in memory even thought the session close later
+//            System.out.println("Courses: " + instructor.getCourses());
 
             // commit
             session.getTransaction().commit();
+
+            // close the session to break it purposely
+            session.close();
+
+            // this should fail, because it's lazy loaded...
+            // get courses for instructor
+            System.out.println("Courses: " + instructor.getCourses());
+
 
             System.out.println("DONE!");
 
