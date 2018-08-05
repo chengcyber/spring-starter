@@ -31,6 +31,15 @@ public class Course {
     @JoinColumn(name="course_id")
     private List<Review> reviews;
 
+    @ManyToMany(fetch = FetchType.LAZY,
+            cascade = { CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH })
+    @JoinTable(
+            name="course_student",
+            joinColumns=@JoinColumn("course_id"),
+            inverseJoinColmns=@JoinColumn("stduent_id")
+    )
+    private List<Student> students;
+
     public Course() {
 
     }
@@ -78,6 +87,23 @@ public class Course {
         }
 
         reviews.add(review);
+    }
+
+    public List<Student> getStudents() {
+        return students;
+    }
+
+    public void setStudents(List<Student> students) {
+        this.students = students;
+    }
+
+    // convenience method to add student
+    public void addStduent(Student student) {
+        if (students == null) {
+            students = new ArrayList<>();
+        }
+
+        students.add(student);
     }
 
     @Override
