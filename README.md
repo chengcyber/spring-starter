@@ -309,6 +309,7 @@ Project Properties - Java Build Path - Libraries - Add JARs
 
 # hb-02-one-to-one-bi
 
+- run sql hb-02-one-to-one-bi/create-db.sql
 - [bi-directional demo](https://github.com/kimochg/spring-starter/commit/9a46a8c66b83c7832a8618ce98ae5c01547b3f63)
 - [error handling](https://github.com/kimochg/spring-starter/commit/cde46c58856b2d29c4204ec7a5401681ba47ac7f)
 - [cascade delete](https://github.com/kimochg/spring-starter/commit/5adaa72a9e2184aed50b7582cdeb6ea90d771538)
@@ -316,6 +317,7 @@ Project Properties - Java Build Path - Libraries - Add JARs
 
 # hb-03-one-to-many
 
+- run sql hb-03-one-to-many/create-db.sql
 - [create instructor demo](https://github.com/kimochg/spring-starter/commit/1ba0eb6c4071b37c5f80544ca674b3fb6f9fe59f)
 - [create courses demo](https://github.com/kimochg/spring-starter/commit/1cd70fd9a4d04dda7108181fd6b8506f7b1dd29f)
 - [retrieve instructor courses demo](https://github.com/kimochg/spring-starter/commit/ff56ab7ee2025674bf0aa0effa0dc5aedbc0d4b7)
