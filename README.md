@@ -332,3 +332,10 @@ Project Properties - Java Build Path - Libraries - Add JARs
 - [HQL Join Fetch](https://github.com/kimochg/spring-starter/commit/87cf54edbc3eb608b3bd94e9661114412856fd3e)
   - use JOIN FETCH to load all data, negating with LAZY fetch
 
+# hb-04-one-to-many-uni
+
+- run sql hb-04-one-to-many-uni/create-db.sql
+- [create course and reviews demo](https://github.com/kimochg/spring-starter/commit/5db44a45c365db41dd9a22bb95b411224c34eacd)
+- [retrieve course and reviews demo](https://github.com/kimochg/spring-starter/commit/9c8573bfd00def84974ca4849e3fcb3bf1e2d561)
+- [delete course and reviews demo](https://github.com/kimochg/spring-starter/commit/064ea60091cb48d2b5a0c92a4cd0dab77cf24d76)
+
