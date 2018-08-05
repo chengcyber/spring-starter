@@ -339,3 +339,12 @@ Project Properties - Java Build Path - Libraries - Add JARs
 - [retrieve course and reviews demo](https://github.com/kimochg/spring-starter/commit/9c8573bfd00def84974ca4849e3fcb3bf1e2d561)
 - [delete course and reviews demo](https://github.com/kimochg/spring-starter/commit/064ea60091cb48d2b5a0c92a4cd0dab77cf24d76)
 
+# hb-05-many-to-many
+
+- run sql hb-05-many-to-many/create-db.sql
+- [configuration](https://github.com/kimochg/spring-starter/commit/1b3cd4e67cf7d444ff53bbbd846fa7a662232880)
+- [create demo](https://github.com/kimochg/spring-starter/commit/a0f5688b589027005c5bfab0bdafb916bc0382bf)
+- [further create demo](https://github.com/kimochg/spring-starter/commit/f47dd0377f58f4018c265a57498d9f9c2adf4d08)
+- [retrieve data demo](https://github.com/kimochg/spring-starter/commit/5b44c962227dbd56136282d140834ad98630820f)
+- [delete demo](https://github.com/kimochg/spring-starter/commit/8d8beb9dde26e19fcbd9307b5e3f8b311c257232)
+
