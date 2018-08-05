@@ -321,3 +321,12 @@ Project Properties - Java Build Path - Libraries - Add JARs
 - [retrieve instructor courses demo](https://github.com/kimochg/spring-starter/commit/ff56ab7ee2025674bf0aa0effa0dc5aedbc0d4b7)
 - [delete course demo](https://github.com/kimochg/spring-starter/commit/66e4462af7245a9a6b16997d3e77bd219e0a6bb4)
 
+# hb-eager-vs-lazy
+
+- [eager-demo](https://github.com/kimochg/spring-starter/commit/aeff7ec170f02ff3de3cae7b35a65215adfdd9f8)
+- [lazy-demo](https://github.com/kimochg/spring-starter/commit/50e1423fe5c2a90440c594eb79f735c57f63cfd8)
+- [lazy-demo-issue](https://github.com/kimochg/spring-starter/commit/f05dddc92b29f089776e02228e5a32aec402fb47)
+  - close session before lazy fetch
+- [HQL Join Fetch](https://github.com/kimochg/spring-starter/commit/87cf54edbc3eb608b3bd94e9661114412856fd3e)
+  - use JOIN FETCH to load all data, negating with LAZY fetch
+
