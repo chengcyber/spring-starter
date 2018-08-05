@@ -35,8 +35,8 @@ public class Course {
             cascade = { CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH })
     @JoinTable(
             name="course_student",
-            joinColumns=@JoinColumn("course_id"),
-            inverseJoinColmns=@JoinColumn("stduent_id")
+            joinColumns=@JoinColumn(name="course_id"),
+            inverseJoinColumns=@JoinColumn(name="student_id")
     )
     private List<Student> students;
 
